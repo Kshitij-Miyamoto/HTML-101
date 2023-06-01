@@ -17,13 +17,17 @@
     <form>
         <label for="Phone">Phone :</label>
 <br>
-        <input type="number">
+        <input type="tel">
     </form>
+    <br>
+    <br>
     <form>
-        <label for="Occupation"></label>
-<br>
-        <input type="text">
-    </form>
+        <label for="Occupation">Occupation :</label>
+        <select name="Occupation" id="Occupation"></select>
+        <option value="Student">Student</option>
+        <option value="Bussiness">Business</option>
+        <option value="Service">Service</option>
+    </form
     <form>
         <label for="Topics Of Interest">Topics Of Interest :</label>
 <br>
@@ -38,11 +42,35 @@
         <label for="Comments"></label>
         <br>
         <br>
-        <input type="text">
+        <input type="textarea">
     </form>
     <form>
         <label for="Register"></label>
 <br>
         <input type="submit">
+
+
+        <!-- Now using fieldset -->
+        <fieldset>
+            <legend>Topics Of Interest ;
+                <br>
+                <label for="Checkbox">HTML</label>
+                <input type="checkbox" id = "checkbox1">
+               
+                <label for="checkbox2">CSS</label>
+                <input type="checkbox" id = "checkbox2" >
+                
+                <label for="checkbox3">Javascript</label>
+                <input type="checkbox" id = "checkbox3">
+
+            </legend>
+        </fieldset>
+        <br>
+        <!-- Using Txt area -->
+        <label for="Comments">Comments</label>
+        <textarea name="Commments" id="Comments" cols="300" rows="10"></textarea>
+        <br>
+        <input type="button" value="Register">
 </body>
+
 </html>
