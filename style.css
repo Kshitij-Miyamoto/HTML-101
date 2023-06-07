@@ -34,9 +34,30 @@ a{
     text-decoration: none;
     cursor: url(/Users/kshitijsharma/Desktop/Kshitij Photo.jpg), auto ;
 }
-a:hover{
+/* a:hover{ */
     color: chartreuse;
 }
 a:visited{
     color: black;
 }
+li a{
+    display: block;
+}
+
+
+
+
+/* Styling different elements randomly in CSS can lead to inconsistent and unpredictable styling results. While CSS rules cascade and override each other based on specificity and order of declaration, it is generally recommended to follow a logical and structured approach when styling elements.
+
+By organizing your CSS styles in a structured manner, it becomes easier to understand and maintain your code. It also helps prevent conflicts and unintended styling overrides. Following a consistent and logical order can improve readability and maintainability of your code.
+
+A common approach is to group and order your CSS rules based on the elements they target. For example, you can start with general styles for the overall layout and typography, then move on to more specific styles for individual elements or component sections.
+
+By following a consistent structure, it becomes easier to locate and modify specific styles when needed. It also helps other developers who might work on the codebase or when revisiting the code at a later time.
+
+While it is technically possible to style elements randomly in CSS, it is generally recommended to follow a structured and organized approach for better code maintainability and readability.
+
+
+
+
+ */
