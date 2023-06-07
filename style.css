@@ -1,0 +1,32 @@
+body{
+    margin: 0.5rem;
+    text-align: center;
+    list-style-position: inside;
+     font-family: sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+nav{
+     border: 2px solid ;
+     border-top: 10px;
+     /* Yep so I was getting a problem with my project but I fixed it with this simple manuplation */
+     border-radius: 2rem;
+     max-width: 600px;
+     max-height: 1000px;
+     margin:0 auto 1rem;
+     font-size: 3rem;
+     line-height: 7rem;
+}
+h2{
+    padding: 1rem;
+    background-color: darkgoldenrod;
+    border-radius: 2rem 2rem 0 0;
+}
+
+li{
+    border-top: 1px solid black;
+    border-left: 1px;
+
+}
